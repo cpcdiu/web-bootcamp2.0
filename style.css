@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+header{
+    z-index: 1;
+}
+
+.dev{
+    width: fit-content;
+}
+
+.big-text{
+    font-size: 60px !important;
+    font-weight: 600;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+.rectangle{
+    width: 250px;
+    height: 20px;
+    margin-top: -20px;
+    float: left;
+}
+
+.pro{
+    font-weight: 800;
+}
+
+#hero{
+background: url('./images/Wave.png');
+}
+
+.single-feature{
+    width: 700px;
+    height: 250px;
+}
+
+.feat-count{
+    font-size: 60px;
+    color: coral;
+    opacity: .3;
+}
+
+hr{
+    text-align: center;
+    width: 100px;
+    border: 5px solid coral;
+    margin-top: -15px;
+    background: coral;
+}
+
+@media screen and (max-width: 480px) {
+  .big-text{
+      font-size: 30px !important;
+      text-align: center;
+  }
+  .single-feature{
+      padding: 20px;
+      margin: 20px;
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+  .rectangle{
+      width: 150px;
+      float: right;
+      margin-top: -25px;
+  }
+  .dev{
+      text-align: center;
+  }
+  #hero{
+      text-align: center;
+  }
+  #hero a{
+      margin-bottom: 100px;
+  }
+}
+
+
+footer {
+    background-color: #222f3e;
+    color: #95afc0;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #10ac84 !important;
+    text-decoration: none !important;
+  }
+  
+footer a:hover {
+    font-size: 1.4em;
+  }
